@@ -1,0 +1,131 @@
+body {
+  background: url(pic.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+}
+* {
+  text-decoration: none;
+}
+.bar ul {
+  overflow: auto;
+}
+.bar {
+  background: transparent;
+  padding-right: 25px;
+  padding-left: 10px;
+  text-align: center;
+}
+.navdie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: white;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.container {
+  position: absolute;
+  top: 60%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 600px;
+  text-align: center;
+  border: 1px solid rgb(231, 245, 245);
+  border-radius: 12px;
+  padding: 10px 20px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  box-shadow: 5px, 5px, 10px, 0 rbg(0, 0, 0, 0.5);
+}
+h2 {
+  color: white;
+  margin-left: 25px;
+}
+.container input {
+  margin: 5px;
+  padding: 6px;
+  border: 3px solid white;
+  border-radius: 9px;
+  position: relative;
+  width: 330px;
+  background: transparent;
+}
+
+.container input::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+
+input[type='email'],
+input[type='password'] {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+  color: black;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+}
+.login:hover {
+  background-color: white;
+  color: black;
+}
+p {
+  color: white;
+}
+.container a {
+  color: rgb(231, 245, 245);
+  text-decoration: none;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
+.ar {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  top: 20%;
+  right: 69%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 150px;
+  text-align: center;
+  padding: 10px 20px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  box-shadow: 5px, 5px, 10px, 0 rbg(0, 0, 0, 0.5);
+}
+.ar p {
+  font-size: 90px;
+  width: 800px;
+  color: white;
+}
